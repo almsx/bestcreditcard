@@ -1,0 +1,1 @@
+web: gunicorn --workers 4 comparamela.wsgi --bind=0.0.0.0:$PORT
